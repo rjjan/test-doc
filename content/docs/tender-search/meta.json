@@ -1,6 +1,0 @@
-{
-    "title": "招查",
-    "icon": "MyIcon",
-    "pages": ["guide", "components"],
-    "defaultOpen": true
-}
