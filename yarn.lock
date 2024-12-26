@@ -489,10 +489,27 @@
   resolved "https://registry.yarnpkg.com/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==
 
+"@orama/orama@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@orama/orama/-/orama-3.0.4.tgz#aab17d010e0cf59ca75de544c09593c34cbe2435"
+  integrity sha512-ziYjwoxUty8WEvgnUZNeJlCHkYplxWFxjNVXWaNIh1wvQ37tl/qkM0kyLXiwHgSxrIPjuv6A2TwgKjjtwhP3jg==
+
 "@orama/orama@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@orama/orama/-/orama-2.1.1.tgz#5242d1232dbda3d539a829653628ecc547fb4dc7"
   integrity sha512-euTV/2kya290SNkl5m8e/H1na8iDygk74nNtl4E0YZNyYIrEMwE1JwamoroMKGZw2Uz+in/8gH3m1+2YfP0j1w==
+
+"@orama/stopwords@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@orama/stopwords/-/stopwords-3.0.4.tgz#b83a7d14d7df55290b5b20ba681151650301d7b2"
+  integrity sha512-FkKQaf2siIL6+LcLzmuH3ABUGL2a65HuO/zFzweKkMTk840bx3FdRLiH93Hbc8NyXd1H8bX6zrjzVTTZAdrZRA==
+
+"@orama/tokenizers@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@orama/tokenizers/-/tokenizers-3.0.4.tgz#15737cf8b7140b0fdd52f24301ae6dff852ed1f2"
+  integrity sha512-C4XjqhRzVzMg/wmMAskWd8eKwaoWnwBZzHtiGaiRtE1goQXB0yANW3UZnhk0LkjHk09H8+dzJ1gzQwGMGX0Rkw==
+  dependencies:
+    "@orama/orama" "3.0.4"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
