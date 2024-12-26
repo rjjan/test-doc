@@ -6,12 +6,12 @@ const withMDX = createMDX();
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
-  i18n: {
-    // Supported locales
-    locales: ["en-US", "zh-TW"],
-    // Default locale
-    defaultLocale: "zh-TW",
-  },
+  //i18n: {
+  // Supported locales
+  //  locales: ["en", "zh-TW"],
+  // Default locale
+  //  defaultLocale: "zh-TW",
+  //},
 };
 
 export default withMDX(config);
